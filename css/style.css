@@ -30,11 +30,13 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
-}
+    a:hover {
+      text-decoration: none;
+    }
 
-/*Главные блоки*/
+/*-----------------
+  #Главные блоки
+-----------------*/
 
 #wrapper {
   margin-top: 40px;
@@ -50,32 +52,32 @@ a:hover {
   z-index: 4;
 }
 
-#headerInner {
-  position: relative;
-  border: 0px solid #333;
-  width: 1200px;
-  height: 250px;
-  margin: 0 auto;
-  margin-top: 0px;
-}
+    #header-inner {
+      position: relative;
+      border: 0px solid #333;
+      width: 1200px;
+      height: 250px;
+      margin: 0 auto;
+      margin-top: 0px;
+    }
 
 #content {
   margin-top: 40px;
 }
 
-#content #colLeft {
-  background: #fff;
-  float: left;
-  width: 800px;
-  margin-right: 0px;
-}
+    #content #col-left {
+      background: #fff;
+      float: left;
+      width: 800px;
+      margin-right: 0px;
+    }
 
-#content #colRight {
-  margin-left: 45px;
-  float: left;
-  width: 350px;
-  position: relative;
-}
+    #content #col-right {
+      margin-left: 45px;
+      float: left;
+      width: 350px;
+      position: relative;
+    }
 
 #middle:after {
   content: ".";
@@ -85,9 +87,11 @@ a:hover {
   height: 0;
 }
 
-/* Верхнее меню */
+/* ------------
+#Верхнее меню 
+--------------*/
 
-.topMenuRight {
+.top-menu-right {
   height: 57px;
   position: absolute;
   left: 0px;
@@ -95,32 +99,32 @@ a:hover {
   border: 0px solid #1fa2e1;
 }
 
-.topMenuRight ul li {
-  background: url(images/line.png) 0px 0px no-repeat;
-  float: left;
-  height: 57px;
-}
+    .top-menu-right ul li {
+      background: url(images/line.png) 0px 0px no-repeat;
+      float: left;
+      height: 57px;
+    }
 
-.topMenuRight ul {
-  padding-left: 0px;
-}
+    .top-menu-right ul {
+      padding-left: 0px;
+    }
 
-.topMenuRight ul li a {
-  margin-top: 0px;
-  font-weight: 100;
-  border-right: 0px solid #adadad;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  line-height: 20px;
-  font-size: 18px;
-  padding: 16px 20px 21px 20px;
-}
+    .top-menu-right ul li a {
+      margin-top: 0px;
+      font-weight: 100;
+      border-right: 0px solid #adadad;
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      line-height: 20px;
+      font-size: 18px;
+      padding: 16px 20px 21px 20px;
+    }
 
-.topMenuRight ul li a:hover {
-  background: #fff;
-  color: #555;
-}
+    .top-menu-right ul li a:hover {
+      background: #fff;
+      color: #555;
+    }
 
 .share-new {
   z-index: 1;
@@ -128,7 +132,9 @@ a:hover {
   right: 0px;
   top: 14px;
 }
-/*иконки*/
+/*-------------
+    #Иконки
+--------------*/
 .share-new a {
   display: inline-block;
   width: 19px;
@@ -156,7 +162,9 @@ a:hover {
   font-size: 17px;
   margin-right: 0px;
 }
-/*Логотип*/
+/*-------------
+    #Логотип
+-------------*/
 
 .logo {
   position: absolute;
@@ -164,9 +172,11 @@ a:hover {
   top: 90px;
 }
 
-/*меню*/
+/*--------------
+      #Меню
+--------------*/
 
-.bottomMenu {
+.bottom-menu {
   width: 1200px;
   height: 70px;
   position: absolute;
@@ -184,33 +194,35 @@ a:hover {
 }
 
 #dropdown_nav li {
-  float: left;
-  position: relative;
-  display: inline-block;
-}
+    float: left;
+    position: relative;
+    display: inline-block;
+    }
 
-#dropdown_nav li a {
-  font-weight: 100;
-  font-size: 18px;
-  color: #fff;
-  padding: 15px 22px 20px 22px;
-  background: url(images/linemenu.png) right no-repeat;
-  -moz-transition: background-color 0.3s 0.01s ease;
-  -o-transition: background-color 0.3s 0.01s ease;
-  -webkit-transition: background-color 0.3s 0.01s ease;
-}
-#dropdown_nav li a:hover {
-  background: #000;
-  text-decoration: none;
-  color: #0dbfe5;
-}
+    #dropdown_nav li a {
+      font-weight: 100;
+      font-size: 18px;
+      color: #fff;
+      padding: 15px 22px 20px 22px;
+      background: url(images/linemenu.png) right no-repeat;
+      -webkit-transition: background-color 0.3s 0.01s ease;
+          -moz-transition: background-color 0.3s 0.01s ease;
+            -o-transition: background-color 0.3s 0.01s ease;
+    }
+    #dropdown_nav li a:hover {
+      background: #000;
+      text-decoration: none;
+      color: #0dbfe5;
+    }
 
-#dropdown_nav li a.first {
-  -moz-border-radius: 5px 0px 0px 5px;
-  -webkit-border-radius: 5px 0px 0px 5px;
-}
+    #dropdown_nav li a.first {
+      -webkit-border-radius: 5px 0px 0px 5px;
+          -moz-border-radius: 5px 0px 0px 5px;
+    }
 
-/* Выпадающее меню */
+/* ------------------
+    #Выпадающее меню 
+--------------------*/
 #dropdown_nav .sub_nav {
   z-index: 4;
   width: 180px;
@@ -243,24 +255,26 @@ a:hover {
 }
 
 #lpblock {
-  margin: 0 auto;
-  margin-top: 193px;
-  width: 1200px;
-  height: 100px;
-  background: #eee;
-  position: relative;
+    margin: 0 auto;
+    margin-top: 193px;
+    width: 1200px;
+    height: 100px;
+    background: #eee;
+    position: relative;
 }
 
-#lpblock h2 {
-  font-weight: 100;
-  padding-top: 35px;
-  font-size: 3em;
-  text-align: center;
-  font-family: "Segoe UI Semilight";
-  color: #b2b2b2;
-}
+    #lpblock h2 {
+      font-weight: 100;
+      padding-top: 35px;
+      font-size: 3em;
+      text-align: center;
+      font-family: "Segoe UI Semilight";
+      color: #b2b2b2;
+    }
 
-/*Контент*/
+/*----------------
+      #Контент
+------------------*/
 .info {
   width: 100%;
   margin-bottom: 20px;
@@ -270,13 +284,13 @@ a:hover {
   color: #999;
 }
 
-.info a {
-  color: #777;
-}
+    .info a {
+      color: #777;
+    }
 
-.info a:hover {
-  color: #4991bb;
-}
+    .info a:hover {
+      color: #4991bb;
+    }
 
 .raz {
   margin: 0 auto;
@@ -288,137 +302,145 @@ a:hover {
   background: url(images/raz.png) 0px 0px no-repeat;
 }
 
-.postBox {
-  border: 0px solid #333;
-  background: #fff;
-  width: 700px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-bottom: 50px;
+.post-box {
+    border: 0px solid #333;
+    background: #fff;
+    width: 700px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 50px;
 }
 
-.postBox h2 a {
-  font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Helvetica, Sans-Serif;
-  color: #000;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 33px;
-  line-height: 35px;
-  -moz-transition: all 0.3s 0.01s ease;
-  -o-transition: all 0.3s 0.01s ease;
-  -webkit-transition: all 0.3s 0.01s ease;
-}
+    .post-box h2 a {
+      font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Helvetica, Sans-Serif;
+      color: #000;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 33px;
+      line-height: 35px;
+      -webkit-transition: all 0.3s 0.01s ease;
+          -moz-transition: all 0.3s 0.01s ease;
+            -o-transition: all 0.3s 0.01s ease;
+    }
 
-.postBox h2 a:hover {
-  color: #0dbfe5;
-}
+    .post-box h2 a:hover {
+      color: #0dbfe5;
+    }
 
-.postBox .textPreview {
-  border: 0px solid #333;
-  width: 800px;
-  margin-bottom: 30px;
-}
+    .post-box .textPreview {
+      border: 0px solid #333;
+      width: 800px;
+      margin-bottom: 30px;
+    }
 
-.postBox .textPreview p {
-  margin-top: 0;
-}
+    .post-box .textPreview p {
+      margin-top: 0;
+    }
 
-.postBox .postThumb {
-  margin: 0px 0px 15px 0;
-}
+    .post-box .postThumb {
+      margin: 0px 0px 15px 0;
+    }
 
-.postBox .postMeta {
-  padding-bottom: 15px;
-  clear: left;
-  overflow: hidden;
-}
-.postThumb img {
+    .post-box .postMeta {
+      padding-bottom: 15px;
+      clear: left;
+      overflow: hidden;
+    }
+
+.post-thumb img {
   width: 800px;
   height: 300px;
 }
 
 .more-link a {
-  border-radius: 3px;
-  background: #0dbfe5;
-  margin-top: 30px;
-  font-weight: 600;
-  color: #fff;
-  font-size: 17px;
-  padding: 6px 25px 9px 25px;
-  -moz-transition: all 0.3s 0.01s ease;
-  -o-transition: all 0.3s 0.01s ease;
-  -webkit-transition: all 0.3s 0.01s ease;
+    border-radius: 3px;
+    background: #0dbfe5;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 17px;
+    padding: 6px 25px 9px 25px;
+    -webkit-transition: all 0.3s 0.01s ease;
+        -moz-transition: all 0.3s 0.01s ease;
+          -o-transition: all 0.3s 0.01s ease;
 }
 
-.more-link a:hover {
-  background: #000;
-  color: #0dbfe5;
+    .more-link a:hover {
+      background: #000;
+      color: #0dbfe5;
+    }
+
+/*----------------
+  #Правый блок
+-----------------*/
+
+.right-box {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 330px;
+    margin-bottom: 30px;
 }
 
-/*Правый блок*/
+    .right-box h2 {
+      width: 335px;
+      background: #f7f7f7 url(images/h2img.png) 320px 14px no-repeat;
+      font-size: 18px;
+      font-family: "Segoe UI Semibold", Tahoma, Helvetica, Sans-Serif;
+      color: #333;
+      display: block;
+      padding: 10px 0 15px 20px;
+    }
 
-.rightBox {
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 330px;
-  margin-bottom: 30px;
-}
+    .right-box ul li {
+      width: 350px;
+      padding: 10px 0px;
+      border-bottom: 1px solid #f6f6f6;
+      font-size: 14px;
+      line-height: 16px;
+    }
 
-.rightBox h2 {
-  width: 335px;
-  background: #f7f7f7 url(images/h2img.png) 320px 14px no-repeat;
-  font-size: 18px;
-  font-family: "Segoe UI Semibold", Tahoma, Helvetica, Sans-Serif;
-  color: #333;
-  display: block;
-  padding: 10px 0 15px 20px;
-}
+    .right-box a {
+      color: #333;
+    }
 
-.rightBox ul li {
-  width: 350px;
-  padding: 10px 0px;
-  border-bottom: 1px solid #f6f6f6;
-  font-size: 14px;
-  line-height: 16px;
-}
+        .right-box a:hover {
+          color: #0dbfe5;
+        }
 
-.rightBox a {
-  color: #333;
-}
-
-.rightBox a:hover {
-  color: #0dbfe5;
-}
-/*форма поиска*/
+/*---------------
+  #Форма поиска
+----------------*/
 
 #form-query {
-  position: relative;
-  background: #eeeeee;
-  border: 0px solid #e4e4e4;
-  width: 335px;
-  height: 31px;
-  padding: 8px 10px 7px;
-  font-weight: 100;
-  font-size: 18px;
-  color: #000;
-  margin-bottom: 30px;
+    position: relative;
+    background: #eeeeee;
+    border: 0px solid #e4e4e4;
+    width: 335px;
+    height: 31px;
+    padding: 8px 10px 7px;
+    font-weight: 100;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 30px;
 }
 
-#form-querysub {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  width: 17px;
-  height: 17px;
-  background: url(images/search.png) 0px 0px no-repeat;
-  border: 0px dashed #333;
-}
+    #form-query-sub {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      width: 17px;
+      height: 17px;
+      border: 0px dashed #333;
+      background: url(images/search.png) 0px 0px no-repeat;
+    }
 
-#form-querysub:hover {
-  cursor: pointer;
-}
+    #form-query-sub:hover {
+      cursor: pointer;
+    }
 
-/*Футер*/
+/*---------------------
+      #Футер
+---------------------*/
 
 .strup {
   z-index: 1;
@@ -436,63 +458,62 @@ a:hover {
   right: 510px;
   bottom: 0px;
   z-index: 5;
-  -moz-transition: all 0.5s 0.05s ease-in-out;
-  -o-transition: all 0.5s 0.05s ease-in-out;
-  -webkit-transition: all 0.5s 0.05s ease-in-out;
   height: 87px;
   width: 79px;
   background: url(images/arowup.png) no-repeat;
+  -webkit-transition: all 0.5s 0.05s ease-in-out;
+      -moz-transition: all 0.5s 0.05s ease-in-out;
+        -o-transition: all 0.5s 0.05s ease-in-out;
 }
 
 .arowup:hover {
   -webkit-transform: translate(0, -50px);
-  -moz-transform: translate(0, -50px);
-  -o-transform: translate(0, -50px);
+      -moz-transform: translate(0, -50px);
+         -o-transform: translate(0, -50px);
 }
 
 #footer {
-  margin-top: 50px;
-  height: 100px;
-  width: 100%;
-  background: #0dbfe5;
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    background: #0dbfe5;
 }
+    #footer-inner {
+      position: relative;
+      border: 0px solid #000;
+      width: 1200px;
+      margin: 0 auto;
+      height: 100px;
+    }
 
-#footerInner {
-  position: relative;
-  border: 0px solid #000;
-  width: 1200px;
-  margin: 0 auto;
-  height: 100px;
-}
+    #footer-logo {
+      position: absolute;
+      left: 0px;
+      top: 25px;
+    }
 
-#footerlogo {
-  position: absolute;
-  left: 0px;
-  top: 25px;
-}
+    .footer-nav {
+      position: absolute;
+      right: 0px;
+      top: 35px;
+    }
 
-.footernav {
-  position: absolute;
-  right: 0px;
-  top: 35px;
-}
+      .footer-nav ul li {
+        float: left;
+      }
 
-.footernav ul li {
-  float: left;
-}
+      .footer-nav ul li a {
+        margin-top: 0px;
+        font-weight: 100;
+        border-right: 0px solid #adadad;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        line-height: 20px;
+        font-size: 18px;
+        padding: 0px 0px 0px 25px;
+      }
 
-.footernav ul li a {
-  margin-top: 0px;
-  font-weight: 100;
-  border-right: 0px solid #adadad;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  line-height: 20px;
-  font-size: 18px;
-  padding: 0px 0px 0px 25px;
-}
-
-.footernav ul li a:hover {
-  color: #333;
-}
+      .footer-nav ul li a:hover {
+        color: #333;
+      }
