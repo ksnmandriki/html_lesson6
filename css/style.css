@@ -30,12 +30,12 @@ a {
   text-decoration: none;
 }
 
-    a:hover {
-      text-decoration: none;
-    }
+a:hover {
+  text-decoration: none;
+}
 
-/*-----------------
-  #Главные блоки
+/*---------------
+  #Main blocks 
 -----------------*/
 
 #wrapper {
@@ -87,9 +87,9 @@ a {
   height: 0;
 }
 
-/* ------------
-#Верхнее меню 
---------------*/
+/* ---------------
+    #Top Menu  
+----------------*/
 
 .top-menu-right {
   height: 57px;
@@ -132,9 +132,9 @@ a {
   right: 0px;
   top: 14px;
 }
-/*-------------
-    #Иконки
---------------*/
+/*---------------
+    #Icons 
+----------------*/
 .share-new a {
   display: inline-block;
   width: 19px;
@@ -162,9 +162,9 @@ a {
   font-size: 17px;
   margin-right: 0px;
 }
-/*-------------
-    #Логотип
--------------*/
+/*-------------------
+      #Logo
+--------------------*/
 
 .logo {
   position: absolute;
@@ -172,9 +172,9 @@ a {
   top: 90px;
 }
 
-/*--------------
-      #Меню
---------------*/
+/*-------------------
+      #Menu
+-------------------*/
 
 .bottom-menu {
   width: 1200px;
@@ -193,10 +193,10 @@ a {
   margin-top: 18px;
 }
 
-#dropdown_nav li {
-    float: left;
-    position: relative;
-    display: inline-block;
+    #dropdown_nav li {
+      float: left;
+      position: relative;
+      display: inline-block;
     }
 
     #dropdown_nav li a {
@@ -220,9 +220,9 @@ a {
           -moz-border-radius: 5px 0px 0px 5px;
     }
 
-/* ------------------
-    #Выпадающее меню 
---------------------*/
+/* ----------------
+  #Drop-down menu
+------------------ */
 #dropdown_nav .sub_nav {
   z-index: 4;
   width: 180px;
@@ -255,12 +255,12 @@ a {
 }
 
 #lpblock {
-    margin: 0 auto;
-    margin-top: 193px;
-    width: 1200px;
-    height: 100px;
-    background: #eee;
-    position: relative;
+  margin: 0 auto;
+  margin-top: 193px;
+  width: 1200px;
+  height: 100px;
+  background: #eee;
+  position: relative;
 }
 
     #lpblock h2 {
@@ -272,9 +272,9 @@ a {
       color: #b2b2b2;
     }
 
-/*----------------
-      #Контент
-------------------*/
+/*-------------------
+    #Content
+--------------------*/
 .info {
   width: 100%;
   margin-bottom: 20px;
@@ -303,12 +303,12 @@ a {
 }
 
 .post-box {
-    border: 0px solid #333;
-    background: #fff;
-    width: 700px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 50px;
+  border: 0px solid #333;
+  background: #fff;
+  width: 700px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 50px;
 }
 
     .post-box h2 a {
@@ -327,42 +327,41 @@ a {
       color: #0dbfe5;
     }
 
-    .post-box .textPreview {
-      border: 0px solid #333;
-      width: 800px;
-      margin-bottom: 30px;
-    }
+      .post-box .textPreview {
+        border: 0px solid #333;
+        width: 800px;
+        margin-bottom: 30px;
+      }
 
-    .post-box .textPreview p {
-      margin-top: 0;
-    }
+      .post-box .textPreview p {
+        margin-top: 0;
+      }
 
-    .post-box .postThumb {
-      margin: 0px 0px 15px 0;
-    }
+      .post-box .post-thumb {
+        margin: 0px 0px 15px 0;
+      }
 
-    .post-box .postMeta {
-      padding-bottom: 15px;
-      clear: left;
-      overflow: hidden;
-    }
-
+      .post-box .postMeta {
+        padding-bottom: 15px;
+        clear: left;
+        overflow: hidden;
+      }
 .post-thumb img {
   width: 800px;
   height: 300px;
 }
 
 .more-link a {
-    border-radius: 3px;
-    background: #0dbfe5;
-    margin-top: 30px;
-    font-weight: 600;
-    color: #fff;
-    font-size: 17px;
-    padding: 6px 25px 9px 25px;
-    -webkit-transition: all 0.3s 0.01s ease;
-        -moz-transition: all 0.3s 0.01s ease;
-          -o-transition: all 0.3s 0.01s ease;
+  border-radius: 3px;
+  background: #0dbfe5;
+  margin-top: 30px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 17px;
+  padding: 6px 25px 9px 25px;
+  -webkit-transition: all 0.3s 0.01s ease;
+      -moz-transition: all 0.3s 0.01s ease;
+        -o-transition: all 0.3s 0.01s ease;
 }
 
     .more-link a:hover {
@@ -370,15 +369,15 @@ a {
       color: #0dbfe5;
     }
 
-/*----------------
-  #Правый блок
------------------*/
+/*-----------------
+    #Right block 
+-------------------*/
 
 .right-box {
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 330px;
-    margin-bottom: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 330px;
+  margin-bottom: 30px;
 }
 
     .right-box h2 {
@@ -403,25 +402,24 @@ a {
       color: #333;
     }
 
-        .right-box a:hover {
-          color: #0dbfe5;
-        }
-
-/*---------------
-  #Форма поиска
-----------------*/
+    .right-box a:hover {
+      color: #0dbfe5;
+    }
+/*-------------------
+    #Search form 
+--------------------*/
 
 #form-query {
-    position: relative;
-    background: #eeeeee;
-    border: 0px solid #e4e4e4;
-    width: 335px;
-    height: 31px;
-    padding: 8px 10px 7px;
-    font-weight: 100;
-    font-size: 18px;
-    color: #000;
-    margin-bottom: 30px;
+  position: relative;
+  background: #eeeeee;
+  border: 0px solid #e4e4e4;
+  width: 335px;
+  height: 31px;
+  padding: 8px 10px 7px;
+  font-weight: 100;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 30px;
 }
 
     #form-query-sub {
@@ -430,17 +428,17 @@ a {
       top: 15px;
       width: 17px;
       height: 17px;
-      border: 0px dashed #333;
       background: url(images/search.png) 0px 0px no-repeat;
+      border: 0px dashed #333;
     }
 
-    #form-query-sub:hover {
-      cursor: pointer;
-    }
+        #form-query-sub:hover {
+          cursor: pointer;
+        }
 
-/*---------------------
-      #Футер
----------------------*/
+/*------------------
+    #Footer 
+-------------------*/
 
 .strup {
   z-index: 1;
@@ -466,18 +464,19 @@ a {
         -o-transition: all 0.5s 0.05s ease-in-out;
 }
 
-.arowup:hover {
-  -webkit-transform: translate(0, -50px);
-      -moz-transform: translate(0, -50px);
-         -o-transform: translate(0, -50px);
-}
+    .arowup:hover {
+      -webkit-transform: translate(0, -50px);
+          -moz-transform: translate(0, -50px);
+            -o-transform: translate(0, -50px);
+    }
 
 #footer {
-    margin-top: 50px;
-    height: 100px;
-    width: 100%;
-    background: #0dbfe5;
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+  background: #0dbfe5;
 }
+
     #footer-inner {
       position: relative;
       border: 0px solid #000;
@@ -498,22 +497,22 @@ a {
       top: 35px;
     }
 
-      .footer-nav ul li {
-        float: left;
-      }
+        .footer-nav ul li {
+          float: left;
+        }
 
-      .footer-nav ul li a {
-        margin-top: 0px;
-        font-weight: 100;
-        border-right: 0px solid #adadad;
-        display: block;
-        color: #fff;
-        text-decoration: none;
-        line-height: 20px;
-        font-size: 18px;
-        padding: 0px 0px 0px 25px;
-      }
+        .footer-nav ul li a {
+          margin-top: 0px;
+          font-weight: 100;
+          border-right: 0px solid #adadad;
+          display: block;
+          color: #fff;
+          text-decoration: none;
+          line-height: 20px;
+          font-size: 18px;
+          padding: 0px 0px 0px 25px;
+        }
 
-      .footer-nav ul li a:hover {
-        color: #333;
-      }
+        .footer-nav ul li a:hover {
+          color: #333;
+        }
