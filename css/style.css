@@ -327,13 +327,13 @@ a:hover {
       color: #0dbfe5;
     }
 
-      .post-box .textPreview {
+      .post-box .text-preview {
         border: 0px solid #333;
         width: 800px;
         margin-bottom: 30px;
       }
 
-      .post-box .textPreview p {
+      .post-box .text-preview p {
         margin-top: 0;
       }
 
